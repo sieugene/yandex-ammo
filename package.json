@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "yarn tsc",
+    "start": "yarn build && node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "ammo": "tank-create-ammo  -u Yandex-Tank-Dev -f ./config.json -o  myfile"
   },
