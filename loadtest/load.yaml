@@ -1,8 +1,14 @@
 overload:
   enabled: true
   package: yandextank.plugins.DataUploader
-  token_file: myfile.txt
+  token_file: "token.txt"
 phantom:
-  enabled: false
+  address: ya.ru:443 
+  ssl: true
+  header_http: '1.1'
+  ammofile: ./ammofile.txt
+  load_profile:
+    load_type: rps # schedule load by defining requests per second
+    schedule: line(20, 450, 1m) #const(150, 60)
 telegraf:
   enabled: false

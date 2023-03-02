@@ -9,7 +9,7 @@ export const generateExampleAmmo = () => {
             {
                 method: 'POST',
                 path: '/ecommerce/goods/eshop/catalog',
-                tag: 'qqq',
+                tag: 'ammo-test-execute',
                 body: { filters: {}, size: 24, page: 1 },
                 headers: {
                     Authorization:
@@ -17,6 +17,7 @@ export const generateExampleAmmo = () => {
                 },
             },
             {
+                tag: "ammo-test-execute",
                 method: 'GET',
                 path: '/catalog/zhenshchinam/zhenskaya-obuv/?opt=all',
                 body: null,

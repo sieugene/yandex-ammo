@@ -1,4 +1,4 @@
-256 qqq 
+256 ammo-test-execute 
 POST /ecommerce/goods/eshop/catalog HTTP/1.1
 Host: i-dev.api.qq.com
 User-Agent: Yandex-Tank-Dev
@@ -8,7 +8,7 @@ Content-Length: 33
 
 {"filters":{},"size":24,"page":1}
 
-181  
+181 ammo-test-execute 
 GET /catalog/zhenshchinam/zhenskaya-obuv/?opt=all HTTP/1.1
 Host: i-dev.api.qq.com
 User-Agent: Yandex-Tank-Dev
