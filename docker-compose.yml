@@ -1,0 +1,16 @@
+networks:
+  net:
+    driver: overlay
+    attachable: true 
+
+version: '3.9'
+
+services:
+  tank:
+    image: tank
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - net   
+

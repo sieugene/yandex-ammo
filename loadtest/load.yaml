@@ -1,0 +1,8 @@
+overload:
+  enabled: true
+  package: yandextank.plugins.DataUploader
+  token_file: myfile.txt
+phantom:
+  enabled: false
+telegraf:
+  enabled: false
