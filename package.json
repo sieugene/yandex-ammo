@@ -1,0 +1,20 @@
+{
+  "name": "ammo-stress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ammo": "tank-create-ammo  -u Yandex-Tank-Dev -f ./config.json -o  myfile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yandex-tank-ammo-generator": "^1.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "typescript": "^4.9.5"
+  }
+}
