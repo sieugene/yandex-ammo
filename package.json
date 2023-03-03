@@ -7,7 +7,7 @@
     "build": "yarn tsc",
     "start": "yarn build && node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ammo": "yarn start && tank-create-ammo  -u Yandex-Tank-Dev -f ./example.json -o  loadtest/ammofile.txt"
+    "ammo": "yarn start && tank-create-ammo  -u Yandex-Tank-Dev -f ./example.json -o  loadtest/ammofile"
   },
   "keywords": [],
   "author": "",

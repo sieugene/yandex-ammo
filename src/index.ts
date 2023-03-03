@@ -1,3 +1,3 @@
-import { generateExampleAmmo } from './ammos/example'
+import { AmmosLoader } from './ammos'
 
-generateExampleAmmo()
+new AmmosLoader().generate()
